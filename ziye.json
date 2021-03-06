@@ -56,16 +56,6 @@
       }
     },
     {
-      "name": "京东汽车兑换",
-      "type": "cron",
-      "time": "10 0 * * *",
-      "running": true,
-      "job": {
-        "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js"
-      }
-    },
-    {
       "name": "悦动族",
       "type": "cron",
       "time": "0,30 0-23 * * *",
