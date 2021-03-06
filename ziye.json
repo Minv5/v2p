@@ -1,0 +1,79 @@
+{
+  "name": "ziye task ",
+  "desc": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+  "author": "lx",
+  "date": "2021-03-6 19:49",
+  "surl": "https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_gallery.json",
+  "list": [
+    {
+      "name": "步步宝",
+      "type": "cron",
+      "time": "0,30 0-23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/bububao.js"
+      }
+    },
+    {
+      "name": "返利网",
+      "type": "cron",
+      "time": "30 9,13,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/flw.js"
+      }
+    },
+    {
+      "name": "笑谱",
+      "type": "cron",
+      "time": "*/30 8-23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/iboxpay.js"
+      }
+    },
+    {
+      "name": "汽车之家极速版",
+      "type": "cron",
+      "time": "*/20 * * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/qczjspeed.js"
+      }
+    },
+    {
+      "name": "全民悦动",
+      "type": "cron",
+      "time": "0,30 0-23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/qmyd.js"
+      }
+    },
+    {
+      "name": "京东汽车兑换",
+      "type": "cron",
+      "time": "10 0 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js"
+      }
+    },
+    {
+      "name": "悦动族",
+      "type": "cron",
+      "time": "0,30 0-23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/yuedongzu.js"
+      }
+    }
+  ]
+}
