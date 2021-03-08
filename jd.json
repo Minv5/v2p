@@ -394,6 +394,16 @@
         "type": "runjs",
         "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js"
       }
+    },
+    {
+      "name": "京小兑",
+      "type": "cron",
+      "time": "30 8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxd.js"
+      }
     }
   ]
 }
