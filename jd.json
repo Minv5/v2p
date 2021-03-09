@@ -404,6 +404,26 @@
         "type": "runjs",
         "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxd.js"
       }
+    },
+    {
+      "name": "超级直播间红包雨",
+      "type": "cron",
+      "time": "30,31 20-23/1 9,12 3 *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js"
+       } 
+    },
+    {
+      "name": "环球挑战赛第二季",
+      "type": "cron",
+      "time": "0 9 8-31 3 *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js"
+       }        
     }
   ]
 }
