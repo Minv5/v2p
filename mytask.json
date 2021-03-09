@@ -1,58 +1,58 @@
 {
   "name": "自用task",
-  "desc": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+  "desc": "",
   "author": "Minv5",
-  "date": "2021-03-4 05:28:30",
+  "date": "2021-03-9 19:45",
   "surl": "https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_gallery.json",
   "list": [
     {
-      "name": "京豆变动通知",
+      "name": "AcFun",
       "type": "cron",
-      "time": "2 9 * * *",
+      "time": "1 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js"
+        "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js"
       }
     },
     {
-      "name": "领京豆额外奖励",
+      "name": "bilibili",
       "type": "cron",
-      "time": "10 7 * * *",
+      "time": "2 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js"
+        "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js"
       }
     },
     {
-      "name": "东东超市兑换奖品",
+      "name": "京东签到",
       "type": "cron",
-      "time": "0 0 0 * * *",
+      "time": "1,3 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js"
+        "target": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
       }
     },
     {
-      "name": "口袋书店",
+      "name": "贴吧",
       "type": "cron",
-      "time": "1 8,12,18 * * *",
+      "time": "1,2,3 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bookshop.js"
+        "target": "https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js"
       }
     },
     {
-      "name": "京东汽车",
+      "name": "52破解",
       "type": "cron",
-      "time": "10 7 * * *",
+      "time": "2 10 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js"
+        "target": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js"
       }
     },
     {
