@@ -1,0 +1,49 @@
+{
+  "name": "自用task",
+  "desc": "https://github.com/minv5/v2p/blob/master/mytask.json",
+  "author": "Minv5",
+  "date": "2021-03-9 20:10",
+  "surl": "https://raw.githubusercontent.com/minv5/v2p/master/mytask.json",
+  "list": [
+    {
+      "name": "阅友小说",
+      "type": "cron",
+      "time": "15 12 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/yyxs.js"
+      }
+    },
+    {
+      "name": "云扫码",
+      "type": "cron",
+      "time": "15 12,14,16,20,22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/ysm.js"
+      }
+    },
+    {
+      "name": "番茄看看",
+      "type": "cron",
+      "time": "15 12,14,16,20 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/fqkk.js"
+      }
+    },
+    {
+      "name": "阳光果园 企业版",
+      "type": "cron",
+      "time": "50 12 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/yggy.js"
+      }
+    }
+  ]
+}
