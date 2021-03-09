@@ -1,0 +1,8 @@
+docker exec -it elecv2p sh
+
+nohup apk add --update --no-cache python3 && ln -sf python3 /usr/bin/python &
+
+
+wget https://bootstrap.pypa.io/get-pip.py&python get-pip.py
+
+wget https://raw.githubusercontent.com/Zero-S1/xmly_speed/master/requirements.txt&pip install -r ./requirements.txt
