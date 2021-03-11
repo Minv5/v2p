@@ -54,6 +54,26 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js"
       }
+    },
+    {
+      "name": "中青",
+      "type": "cron",
+      "time": "1 */5 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
+      }
+    },
+    {
+      "name": "滴滴出行",
+      "type": "cron",
+      "time": "0 1,20,21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js"
+      }      
     }
   ]
 }
