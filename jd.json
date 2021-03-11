@@ -134,16 +134,6 @@
         "type": "runjs",
         "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_fruit.js"
       }
-    },
-    {
-      "name": "环球挑战赛",
-      "type": "cron",
-      "time": "0 9,12,20,21 8-31 3 *",
-      "running": true,
-      "job": {
-        "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js"
-      }
     },    
     {
       "name": "京东国际盲盒",
