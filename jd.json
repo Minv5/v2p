@@ -58,7 +58,7 @@
     {
       "name": "京东汽车兑换",
       "type": "cron",
-      "time": "10 0 * * *",
+      "time": "0 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -88,7 +88,7 @@
     {
       "name": "摇京豆",
       "type": "cron",
-      "time": "5 0 * * *",
+      "time": "10 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -208,7 +208,7 @@
     {
       "name": "京东快递签到",
       "type": "cron",
-      "time": "10 0 * * *",
+      "time": "15 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -228,7 +228,7 @@
     {
       "name": "京东摇钱树",
       "type": "cron",
-      "time": "3 0-23/2 * * *",
+      "time": "30 0-23/2 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -248,7 +248,7 @@
     {
       "name": "点点券",
       "type": "cron",
-      "time": "10 0,20 * * *",
+      "time": "20 0,20 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -318,7 +318,7 @@
     {
       "name": "进店领豆",
       "type": "cron",
-      "time": "10 0 * * *",
+      "time": "40 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -338,7 +338,7 @@
     {
       "name": "京东天天加速",
       "type": "cron",
-      "time": "8 0-23/3 * * *",
+      "time": "50 0-23/3 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -368,7 +368,7 @@
     {
       "name": "东东超市",
       "type": "cron",
-      "time": "11 * * * *",
+      "time": "16 * * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -398,7 +398,7 @@
     {
       "name": "京喜签到",
       "type": "cron",
-      "time": "5 0 * * *",
+      "time": "5 1 * * *",
       "running": true,
       "job": {
         "type": "runjs",
