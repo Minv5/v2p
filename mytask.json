@@ -8,7 +8,7 @@
     {
       "name": "AcFun",
       "type": "cron",
-      "time": "1 0 * * *",
+      "time": "1 9 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -18,7 +18,7 @@
     {
       "name": "bilibili",
       "type": "cron",
-      "time": "2 0 * * *",
+      "time": "2 9 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -28,7 +28,7 @@
     {
       "name": "京东签到",
       "type": "cron",
-      "time": "1,3 0 * * *",
+      "time": "1,3 0,12 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -38,7 +38,7 @@
     {
       "name": "贴吧",
       "type": "cron",
-      "time": "1,2,3 0 * * *",
+      "time": "1 11 * * *",
       "running": true,
       "job": {
         "type": "runjs",
