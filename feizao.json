@@ -44,6 +44,16 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/yggy.js"
       }
+    },
+    {
+      "name": "春风转",
+      "type": "cron",
+      "time": "30 8-22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/cfz.js"
+      }      
     }
   ]
 }
