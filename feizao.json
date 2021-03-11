@@ -8,7 +8,7 @@
     {
       "name": "阅友小说",
       "type": "cron",
-      "time": "15 12 * * *",
+      "time": "30 11 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -18,7 +18,7 @@
     {
       "name": "云扫码",
       "type": "cron",
-      "time": "15 12,14,16,20,22 * * *",
+      "time": "23 9,11,13,15,17 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -28,7 +28,7 @@
     {
       "name": "番茄看看",
       "type": "cron",
-      "time": "15 12,14,16,20 * * *",
+      "time": "15 10,12,14,16 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -38,7 +38,7 @@
     {
       "name": "阳光果园 企业版",
       "type": "cron",
-      "time": "50 12 * * *",
+      "time": "20 13 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -48,7 +48,7 @@
     {
       "name": "春风转",
       "type": "cron",
-      "time": "30 8-22 * * *",
+      "time": "0,30 10-21 * * *",
       "running": true,
       "job": {
         "type": "runjs",
