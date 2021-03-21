@@ -1,0 +1,89 @@
+{
+  "name": "拓大佬task",
+  "desc": "https://github.com/minv5/v2p/blob/master/feizao.json",
+  "author": "Minv5",
+  "date": "2021-03-9 20:10",
+  "surl": "https://raw.githubusercontent.com/minv5/v2p/master/feizao.json",
+  "list": [
+    {
+      "name": "百变大咖秀",
+      "type": "cron",
+      "time": "10 10,11 * * 2-5",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js"
+      }
+    },
+    {
+      "name": "粉丝互动",
+      "type": "cron",
+      "time": "3 10 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js"
+      }
+    },
+    {
+      "name": "超级摇一摇",
+      "type": "cron",
+      "time": "3 20 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js"
+      }
+    },
+    {
+      "name": "联想集卡活动",
+      "type": "cron",
+      "time": "12 15 15-29 3 *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js"
+      } 
+    },
+    {
+      "name": "金口碑奖投票",
+      "type": "cron",
+      "time": "5 10 * 3 *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js"
+      }  
+    },
+    {
+      "name": "母婴-跳一跳",
+      "type": "cron",
+      "time": "5 8,14,20 17-25 3 *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js"
+      } 
+    },
+    {
+      "name": "一加盲盒",
+      "type": "cron",
+      "time": "11 12 17-30 3 *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js"
+      }
+    },
+    {
+      "name": "5G超级盲盒",
+      "type": "cron",
+      "time": "5 1,6,11,16,21 * 3-4 *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js"
+      }        
+    }
+  ]
+}
