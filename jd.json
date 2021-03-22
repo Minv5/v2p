@@ -426,7 +426,7 @@
        } 
     },
     {
-      "name": "环球挑战赛第二季",
+      "name": "环球挑战赛",
       "type": "cron",
       "time": "0 9 8-31 3 *",
       "running": true,
