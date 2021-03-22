@@ -73,17 +73,7 @@
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js"
-      }
-    },
-    {
-      "name": "5G超级盲盒",
-      "type": "cron",
-      "time": "5 1,6,11,16,21 * 3-4 *",
-      "running": true,
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js"
-      }        
+      }      
     }
   ]
 }
