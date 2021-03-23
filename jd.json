@@ -88,7 +88,7 @@
     {
       "name": "摇京豆",
       "type": "cron",
-      "time": "10 0 * * *",
+      "time": "5 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -318,7 +318,7 @@
     {
       "name": "进店领豆",
       "type": "cron",
-      "time": "40 0 * * *",
+      "time": "10 0 * * *",
       "running": true,
       "job": {
         "type": "runjs",
